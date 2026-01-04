@@ -3,10 +3,12 @@
 ## 👨‍💻 Author Info
 
 ### How to Turn Yourself Into a React Developer
+
 - **Author:** [Htun Aung Kyaw](https://github.com/HtunAungKyaw73) (ထွန်းအောင်ကျော်)
 - **Purpose:** Comprehensive guide to help junior developers navigate web development and master React
 - **Contribution:** Complete learning roadmap covering fundamentals through advanced React patterns
 - **Disclaimer:** These markdown file were organised with the help of ClaudeAI
+
 ---
 
 **Last Updated:** January 2026
@@ -24,6 +26,7 @@ A comprehensive learning resource collection covering modern web development wit
 A complete roadmap for junior developers to master web development fundamentals and become proficient React developers.
 
 **Key Sections:**
+
 - **HTML5 & CSS3**: Semantic elements, responsive design, CSS frameworks, and best practices for production-level code
 - **JavaScript Fundamentals**: Language theory (Syntax, Semantics, Pragmatics), data types, and core concepts
 - **Programming Thinking**: Imperative vs Declarative styles, building logical thinking patterns, problem-solving approaches
@@ -33,6 +36,7 @@ A complete roadmap for junior developers to master web development fundamentals 
 - **AI as a Learning Tool**: Leveraging AI tools for efficient learning and development
 
 **Learning Philosophy:**
+
 - Emphasizes building strong fundamentals before frameworks
 - Focuses on "How" and "Why" rather than just "What"
 - Encourages learning Vanilla skills before using abstractions
@@ -47,6 +51,7 @@ A complete roadmap for junior developers to master web development fundamentals 
 A comprehensive guide to mastering Next.js, the React framework for production-ready applications.
 
 **Key Sections:**
+
 - **Introduction**: Understanding Next.js as a complete framework vs React as a library
 - **Core Concepts**: 
   - File-system based routing
@@ -65,6 +70,7 @@ A comprehensive guide to mastering Next.js, the React framework for production-r
 - **Deployment & Production**: Hosting and deployment best practices
 
 **Key Innovations Covered:**
+
 - Server Components and their advantages
 - Hybrid fetching patterns combining server and client
 - Modern data caching and revalidation
@@ -82,38 +88,45 @@ A 12-day structured learning roadmap to master Redux Toolkit Query for advanced 
 **Key Learning Phases:**
 
 **Phase 1: Core Concepts & Mental Models**
+
 - Understanding RTK Query's purpose and philosophy
 - Server state vs Client state distinction
 - API slice anatomy and auto-generated hooks
 
 **Phase 2: The Data Flow**
+
 - Query lifecycle and state machines
 - Subscription model (publish-subscribe pattern)
 - Deduplication logic and cache management
 - Automatic refetching and polling
 
 **Phase 3: Advanced Cache Management**
+
 - Tag-based invalidation strategies
 - Optimistic updates and rollback
 - Cache entry lifecycle and garbage collection
 
 **Phase 4: Customization & Control**
+
 - Base queries and custom fetch implementations
 - Query transformations
 - Middleware and lifecycle hooks
 
 **Phase 5: Performance & Patterns**
+
 - Performance optimization techniques
 - Advanced patterns for complex scenarios
 - Testing strategies for data fetching
 
 **Phase 6: Real-World Integration**
+
 - Common production patterns
 - Error handling strategies
 - DevTools and debugging
 - Real-world project implementations
 
 **Key Concepts:**
+
 - Eliminating boilerplate through smart defaults
 - Automatic cache normalization
 - Subscription-based garbage collection
@@ -126,6 +139,7 @@ A 12-day structured learning roadmap to master Redux Toolkit Query for advanced 
 ## 🎯 Learning Path Recommendations
 
 ### Path 1: Complete Beginner to Professional
+
 1. Start with **How to Turn Yourself Into a React Developer**
    - Build fundamentals: HTML5/CSS3, JavaScript essentials
    - Learn programming thinking and React basics
@@ -137,11 +151,13 @@ A 12-day structured learning roadmap to master Redux Toolkit Query for advanced 
    - Optimize data fetching and caching
 
 ### Path 2: React Developer to Next.js Expert
+
 - Start directly with **The Complete Next.js Learning Guide**
 - Supplement with relevant sections from React Developer guide
 - Advanced Path: **RTK Query Mastery**
 
 ### Path 3: Advanced State Management
+
 - Prerequisites: React and basic Redux knowledge
 - Study **RTK Query Mastery: Complete Learning Guide**
 - Reference other guides for integration patterns
@@ -174,10 +190,13 @@ These guides emphasize:
 ## 📖 How to Use This Repository
 
 ### Study Individual Guides
+
 Each guide is self-contained and can be studied independently based on your current skill level and goals.
 
 ### Reference Material
+
 All guides include:
+
 - Table of contents for easy navigation
 - Theory sections explaining core concepts
 - Code examples and implementation patterns
@@ -185,6 +204,7 @@ All guides include:
 - Resources and practice exercises
 
 ### Implementation Projects
+
 - Apply concepts to real projects as you learn
 - Build from simple exercises to complex applications
 - Use as reference during actual development work
@@ -194,18 +214,21 @@ All guides include:
 ## 🔑 Key Takeaways from Each Guide
 
 ### React Developer Guide
+
 - Master fundamentals: HTML5, CSS3, JavaScript
 - Understand programming paradigms: Imperative vs Declarative
 - Learn React patterns and component design
 - Understand ecosystem and tools
 
 ### Next.js Guide
+
 - File-system routing removes configuration
 - React Server Components revolutionize component design
 - Hybrid data fetching for optimal performance
 - Full-stack capabilities with single framework
 
 ### RTK Query Guide
+
 - Eliminates data fetching boilerplate
 - Smart caching and subscription management
 - Advanced patterns for production applications
@@ -247,6 +270,7 @@ All guides include:
 ## 📞 Questions & Further Learning
 
 For deeper understanding:
+
 - Review the official documentation links mentioned in each guide
 - Practice implementing concepts in real projects
 - Engage with community discussions and examples
