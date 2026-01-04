@@ -4,16 +4,16 @@
 1. [Introduction: What is Next.js?](#introduction)
 2. [Core Concepts](#core-concepts)
 3. [Routing Systems](#routing-systems)
-4. [Data Fetching Strategies](#data-fetching)
-5. [Server vs Client Components](#server-client)
-6. [API Routes & Backend for Frontend](#api-routes)
-7. [Performance & Optimization](#performance)
-8. [Real-World Project Patterns](#real-world)
-9. [Deployment & Production](#deployment)
+4. [Data Fetching Strategies](#data-fetching-strategies)
+5. [Server vs Client Components](#server-vs-client-components)
+6. [API Routes & Backend for Frontend](#api-routes--backend-for-frontend)
+7. [Performance & Optimization](#performance--optimization)
+8. [Real-World Project Patterns](#real-world-project-patterns)
+9. [Deployment & Production](#deployment--production)
 
 ---
 
-## Introduction: What is Next.js? {#introduction}
+## Introduction: What is Next.js?
 
 Next.js is a React framework created by Vercel that makes building modern web applications dramatically easier. Think of it as React with superpowers. While React gives you the tools to build user interfaces, Next.js provides the complete infrastructure you need to build production-ready applications.
 
@@ -37,7 +37,7 @@ React is a library, which means it focuses on one thing: building user interface
 
 ---
 
-## Core Concepts {#core-concepts}
+## Core Concepts
 
 ### File-System Based Routing
 
@@ -86,7 +86,7 @@ Here's what makes this paradigm shift so powerful: by default, all components in
 
 ---
 
-## Routing Systems {#routing-systems}
+## Routing Systems
 
 ### App Router vs Pages Router
 
@@ -149,7 +149,7 @@ Data fetching in the Pages Router uses special functions: `getStaticProps` for s
 
 ---
 
-## Data Fetching Strategies {#data-fetching}
+## Data Fetching Strategies
 
 Data fetching is where Next.js really shines, but it's also where the App Router and Pages Router differ most dramatically.
 
@@ -434,7 +434,7 @@ export default function PostList() {
 
 ---
 
-## Server vs Client Components {#server-client}
+## Server vs Client Components
 
 Understanding when to use Server Components versus Client Components is crucial for building efficient Next.js applications.
 
@@ -643,7 +643,7 @@ export default function ContactForm() {
 
 ---
 
-## API Routes & Backend for Frontend {#api-routes}
+## API Routes & Backend for Frontend
 
 Next.js lets you build API endpoints right alongside your frontend code. This is incredibly powerful for creating a Backend for Frontend (BFF) layer.
 
@@ -799,7 +799,7 @@ The form submits directly to the server function. No API route needed, no client
 
 ---
 
-## Performance & Optimization {#performance}
+## Performance & Optimization
 
 Next.js provides automatic optimizations, but understanding them helps you make the most of the framework.
 
@@ -981,7 +981,7 @@ Next.js generates the appropriate meta tags for search engines and social media.
 
 ---
 
-## Real-World Project Patterns {#real-world}
+## Real-World Project Patterns
 
 Let's look at how these concepts come together in real applications.
 
@@ -1475,7 +1475,7 @@ This pattern allows `acme.yoursaas.com` and `techcorp.yoursaas.com` to have comp
 
 ---
 
-## Deployment & Production {#deployment}
+## Deployment & Production
 
 Getting your Next.js application into production involves several considerations beyond just uploading files.
 
