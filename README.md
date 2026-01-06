@@ -23,120 +23,19 @@ A comprehensive learning resource collection covering modern web development wit
 
 ### 1. [How to Turn Yourself Into a React Developer](how-to-turn-yourself-into-a-react-developer.md)
 
-A complete roadmap for junior developers to master web development fundamentals and become proficient React developers.
-
-**Key Sections:**
-
-- **HTML5 & CSS3**: Semantic elements, responsive design, CSS frameworks, and best practices for production-level code
-- **JavaScript Fundamentals**: Language theory (Syntax, Semantics, Pragmatics), data types, and core concepts
-- **Programming Thinking**: Imperative vs Declarative styles, building logical thinking patterns, problem-solving approaches
-- **JavaScript Essentials**: Objects, Arrays, Functions, Asynchronous programming, and practical patterns
-- **React & Modern Web Development**: React fundamentals, component patterns, state management, hooks, and ecosystem
-- **Deployment & DevOps**: Deployment strategies, CI/CD, and production considerations
-- **AI as a Learning Tool**: Leveraging AI tools for efficient learning and development
-
-**Learning Philosophy:**
-
-- Emphasizes building strong fundamentals before frameworks
-- Focuses on "How" and "Why" rather than just "What"
-- Encourages learning Vanilla skills before using abstractions
-- Promotes imperative programming practices for deeper understanding
-
-**Target Audience:** Beginners and junior developers transitioning into professional web development
-
 ---
 
 ### 2. [The Complete Next.js Learning Guide](nextjs_learning.md)
-
-A comprehensive guide to mastering Next.js, the React framework for production-ready applications.
-
-**Key Sections:**
-
-- **Introduction**: Understanding Next.js as a complete framework vs React as a library
-- **Core Concepts**: 
-  - File-system based routing
-  - Pre-rendering (Static Generation vs Server-Side Rendering)
-  - React Server Components paradigm
-- **Routing Systems**: App Router (recommended) vs Pages Router with detailed examples
-- **Data Fetching Strategies**:
-  - Async/await in Server Components
-  - Parallel data fetching
-  - Caching and revalidation strategies
-  - Client-side fetching with hooks
-- **Server vs Client Components**: When and how to use each
-- **API Routes & Backend for Frontend**: Building backend functionality within Next.js
-- **Performance & Optimization**: Image optimization, code splitting, and bundle optimization
-- **Real-World Project Patterns**: Practical patterns for production applications
-- **Deployment & Production**: Hosting and deployment best practices
-
-**Key Innovations Covered:**
-
-- Server Components and their advantages
-- Hybrid fetching patterns combining server and client
-- Modern data caching and revalidation
-- SEO and social media optimization
-- Full-stack development capabilities
-
-**Target Audience:** Developers wanting to build modern, production-ready React applications
 
 ---
 
 ### 3. [RTK Query Mastery: Complete Learning Guide](rtk_query_learning.md)
 
-A 12-day structured learning roadmap to master Redux Toolkit Query for advanced state and API management.
-
-**Key Learning Phases:**
-
-**Phase 1: Core Concepts & Mental Models**
-
-- Understanding RTK Query's purpose and philosophy
-- Server state vs Client state distinction
-- API slice anatomy and auto-generated hooks
-
-**Phase 2: The Data Flow**
-
-- Query lifecycle and state machines
-- Subscription model (publish-subscribe pattern)
-- Deduplication logic and cache management
-- Automatic refetching and polling
-
-**Phase 3: Advanced Cache Management**
-
-- Tag-based invalidation strategies
-- Optimistic updates and rollback
-- Cache entry lifecycle and garbage collection
-
-**Phase 4: Customization & Control**
-
-- Base queries and custom fetch implementations
-- Query transformations
-- Middleware and lifecycle hooks
-
-**Phase 5: Performance & Patterns**
-
-- Performance optimization techniques
-- Advanced patterns for complex scenarios
-- Testing strategies for data fetching
-
-**Phase 6: Real-World Integration**
-
-- Common production patterns
-- Error handling strategies
-- DevTools and debugging
-- Real-world project implementations
-
-**Key Concepts:**
-
-- Eliminating boilerplate through smart defaults
-- Automatic cache normalization
-- Subscription-based garbage collection
-- The pub-sub pattern for shared data
-
-**Target Audience:** React developers with Redux knowledge who want to master advanced API state management
-
 ---
 
-## 🎯 Learning Path Recommendations
+### 4. [Zustand and Tanstack Query](zustand_tanstack_guide.md)
+
+---
 
 ### Path 1: Complete Beginner to Professional
 

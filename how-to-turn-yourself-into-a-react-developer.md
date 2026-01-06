@@ -174,6 +174,7 @@ Symbol နဲ့ Bigint ကတော့ နေ့စဥ် အသုံးနည
 နောက်ထပ် သေချာမှတ်ထားဖို့လိုတာကတော့ JS ရဲ့ **Truthy and Falsy Value** သဘောတရားတွေပါ။
 
 **Truthy Values တွေက:**
+
 1. Empty array `[]`
 2. Empty object `{}`
 3. Number other than zero
@@ -183,8 +184,9 @@ Symbol နဲ့ Bigint ကတော့ နေ့စဥ် အသုံးနည
 > **သတိပြုစရာ** Empty array `[]`, empty object `{}` တို့က truthy ဖြစ်တယ်
 
 **Falsy values တွေက:**
+
 1. Boolean `false`
-2. Empty string `''`, `""`, ` `` `
+2. Empty string `''`, `""`
 3. Number zero (`0`, `-0`)
 4. `null`
 5. `undefined`
@@ -197,6 +199,7 @@ Falsy တွေကို ကိုင်တွယ်တဲ့အခါ not opera
 Server မှာ data fetch ပြီး result variable ထဲ ထည့်လိုက်တယ်။ Array အနေနဲ့ ပြန်လာမယ့် payload က empty ဖြစ်နေလား စစ်မယ်ဆိုပါစို့။
 
 **❌ Wrong Way:**
+
 ```javascript
 const result = []
 if(!result) {
@@ -207,6 +210,7 @@ if(!result) {
 result variable ကို `!result` ဆိုပြီး စစ်မိရင် empty array က truthy value မို့လို့ `!` နဲ့ စစ်တဲ့အခါ false ဆိုပြီး ဖြစ်သွားတော့မှာပါ။ if clause မှာ ရေးထားတဲ့ code က အလုပ်လုပ်မှာမဟုတ်တော့ပါဘူး။
 
 **✅ Correct Way:**
+
 ```javascript
 const result = []
 if(Array.isArray(result) && !result.length) {
@@ -236,6 +240,7 @@ Imperative Style ကကျတော့ ကိုယ်လိုချင်တ�
 - if နဲ့ စစ်မယ် ကနဦးနှိုင်းကိန်းက နောက်ကလာမယ့် ကိန်းတွေထက် ငယ်နေရင် swap လိုက်မယ်
 
 **Code:**
+
 ```javascript
 const result = [100, 2, 9, 7, 10, 1000, 0];
 let max = result[0];
@@ -271,6 +276,7 @@ console.log("Max:", Math.max(...result))
 Developer တိုင်း Project ရေးရင် အမြဲကြုံရတာက error/bug ပါ။ အဲ့ error ကို trace ဖို့ programming thinking / logical thinking လိုပါတယ်။ Declarative ပဲ အမြဲမသုံးဘဲ **imperative** နည်းနဲ့ အခြေခံကျတာလေးတွေကို ကိုယ်တိုင်လိုက်ရေးကြည့်မယ်ဆိုရင် ကိုယ့်ရဲ့ thinking process က ဒေါင်ဒေါင်မြည် ဖြစ်သွားပါလေရော။
 
 **အကျိုးကျေးဇူးများ:**
+
 - တော်ရုံ code တခုကို မျက်စိနဲ့ skim လုပ်လိုက်တာနဲ့ ဘာအလုပ်လုပ်မယ်၊ ဘယ်နေရာလိုအပ်နေတယ်ဆိုတာ ချက်ချင်းတန်းသိသွားပါတယ်။
 - ဒီအလေ့အကျင့်ကို beginner level မှာ **မဖြစ်မနေကို ပျိုးထောင်ဖို့ တိုက်တွန်းချင်ပါတယ်။**
 
@@ -293,12 +299,14 @@ Developer တိုင်း Project ရေးရင် အမြဲကြုံ
 Object နဲ့ Array က primitive data type တော့ မဟုတ်ပါဘူး။ ဒါပေမဲ့ JS ရဲ့ အရေးအပါဆုံး အစိတ်အပိုင်းတွေအနေနဲ့ ရှိနေပါတယ်။ အဲ့ data type နှစ်ခုကို ချဥ်းကပ်တဲ့အခါမှာ အရေးအသားကို သေချာမှတ်ဖို့လိုပါတယ်။ 
 
 **Object Notation:**
+
 - Object ဆိုရင် **dot notation** နဲ့လည်း ရေးလို့ရတယ်
 - **Bracket notation** နဲ့လည်း ရေးလို့ရတယ်
 
 ဒါဆိုရင် အဲ့ notation နှစ်ခုက အားသာချက်၊ အားနည်းချက်ဘာရှိလဲဆိုတာ ရှာဖွေကြည့်ရင် backend api တွေရေးတဲ့အခါ၊ util function တွေ ရေးတဲ့အခါ အကျိုးများပါလိမ့်မယ်။ 
 
 **တဆက်တည်း သိဖို့လိုတာတွေ:**
+
 - Object data type နဲ့ Class နဲ့က ဘာကွာတာလဲ
 - JS မှာ pass by reference ဘာလို့မရှိတာလဲ
 
@@ -312,12 +320,14 @@ Object နဲ့ Array က primitive data type တော့ မဟုတ်ပ�
 JS က **Functional Programming** ကို support လုပ်တဲ့ Programming Language တခုပါ။ React နဲ့ Redux ဆိုရင် **Immutability** ကို ဦးစားပေးပြီး တည်ဆောက်ထားတာပါ။ JS ကိုသုံးပြီး project ရေးတဲ့အခါ Functional Programming ကို မလေ့လာဖူးဘူးဆိုရင်တောင် FP Concept တွေကို မသိလိုက်မသိဘာသာ အသုံးပြုနေရပြီးသားဖြစ်နေပါတယ်။
 
 **ဥပမာ:** `filter`, `map`, `reduce`, `find` စတဲ့ built-in function တွေက Functional Programming Sense နဲ့ ဖန်တီးထားကြတာတွေပါ။ အဲ့ function တွေက
+
 - Function တခုကို parameter အနေနဲ့ လက်ခံတယ်
 - ပြီးရင် မူရင်း data ကို မထိဘဲ (immutable) result ကို return ပြန်ပေးပါတယ်
 
 **HOF ရဲ့ အချက်နှစ်ချက်:**
 
 HOF လို့ဆိုရင် ဒီအချက်နှစ်ချက်ကို လုပ်နိုင်ရပါတယ်:
+
 1. Function ကို parameter အနေနဲ့လက်ခံနိုင်တယ်။
 2. Function ထဲကနေ function ကို return ပြန်နိုင်တယ်။
 
@@ -338,6 +348,7 @@ JS က **Single Thread** ဖြစ်တယ်။ အရိုးရှင်း
 ကနဦးတုံးက JS က **synchronous** ပဲ ရသေးတယ်။ တကြိမ်မှာတခုပဲလုပ်နိုင်တယ်။ **Blocking** ဖြစ်တယ်ပေါ့။ နောက်တော့ JS က Event Loop concept နဲ့ call stack ရယ်၊ queue ရယ်ခွဲပြီး **asynchronous** ဖြစ်အောင် လုပ်ပေးလာပါတယ်။ **Non-blocking I/O** ဖြစ်လာတယ်ပေါ့။
 
 **Synchronous vs Asynchronous:**  
+
 - Synchronous က တကြိမ်မှာ တခုပဲ လုပ်လို့ရတယ်
 - API fetch တာလို၊ setTimeout လို function တွေကျတော့ time consuming ဖြစ်တယ်
 - သူပြီးမှ သူ့အောက်က code တွေက အလုပ်လုပ်ရမယ်ဆိုရင် efficient မဖြစ်ဘူး
@@ -354,6 +365,7 @@ JS က **Single Thread** ဖြစ်တယ်။ အရိုးရှင်း
 ဒီလိုပါ။ ဒီ code လေးကို ကြည့်ရအောင်။
 
 **❌ Problem:**
+
 ```javascript
 function addAsync(a, b) {
     console.log('Process start');
@@ -376,6 +388,7 @@ console.log('end');
 အဲ့လို ပြဿနာကို ပြေလည်စေဖို့ callback ဆိုတာကို စသုံးကြတာပါ။ Callback နဲ့ async operation တွေပြီးရင် လုပ်လို့ရအောင် function တခု ထပ်ရေးပေးလိုက်တာပါ။ ဒီလိုလေးပါ။
 
 **✅ Solution with callback:**
+
 ```javascript
 function addAsync(a, b, callback) {
     console.log('Process start');
@@ -400,6 +413,7 @@ Promise က **Railway Oriented Programming** သုံးပြီးတော�
 အဲ့လိုနဲ့ပဲ **async/await** concept ကို JS က ထပ်မိတ်ဆက်လာပါတယ်။ အခုဆိုရင် modern နည်းအနေနဲ့ async/await တို့ကိုပဲ သုံးကြပါတော့တယ်။ `await` ကို သုံးပြီး async operation ကို ပြီးအောင် စောင့်ခိုင်းလိုက်တာပါ။ ဒီလိုလေးပါ။
 
 **✅ Modern approach with async/await:**
+
 ```javascript
 function addAsync(a, b) {
     return new Promise((resolve, reject) => {
@@ -435,7 +449,8 @@ JS နဲ့ပတ်သက်လို့ Library နဲ့ Framework တွေ
 Web Development သွားတော့မယ်ဆိုရင် **နှစ်ပိုင်းစဥ်းစားဖို့** လိုလာပါပြီ။
 
 **တခုက Frontend:**  
-အမြင်သာဆုံး မျက်စိထဲဘွားခနဲ မြင်ရတဲ့ UI တွေ။ အဲ့တာအတွက် React သုံးပြီး ရေးမယ်ဆိုရင်:
+အမြင်သာဆုံး မျက်စိထဲဘွားခနဲ မြင်ရတဲ့ UI တွေ။ အဲ့တာအတွက် React သုံးပြီး ရေးမယ်ဆိုရင်
+
 - React ရဲ့ **reactive concept** ကို သေချာနားလည်ဖို့လိုလာတယ်
 - **State** ဆိုတာဘာလဲ သိဖို့လိုလာတယ်
 - State change ရင် render ပြန်ဖြစ်တယ်ဆိုတဲ့ **render process** နဲ့ **reconciliation algorithm** တို့ကို ဂဃနဏသိဖို့လိုပါတယ်
@@ -479,6 +494,7 @@ NoSQL သုံးမယ်ဆိုရင် **MongoDB** က ရွှေပါ
 
 **Component Libraries:**  
 UI အတွက်ဆိုရင် reusable component တွေ ဖန်တီးထားပေးတဲ့
+
 - **Material UI**
 - **Shadcn**
 - **Hero UI**
@@ -487,6 +503,7 @@ UI အတွက်ဆိုရင် reusable component တွေ ဖန်တ�
 
 **Animation Libraries:**  
 ဒါ့အပြင် Scroll Effect UI တွေအတွက်
+
 - **Motion**
 - **Scrollama**
 
@@ -500,6 +517,7 @@ API ခေါ်ပြီး ဒေတာတွေကို fetch တာ၊ data
 **RTK and RTK Query** ပေါ့။ သူကတော့ React ရဲ့ Reducer Concept ကိုအခြေခံပြီး immutability feature နဲ့ ရေးထားတာပါ။ 
 
 အဲ့တာကိုသေချာရပြီဆိုရင် အခုနောက်ပိုင်း အသုံးများလာတဲ့
+
 - **Zustand**
 - **Tanstack**
 
@@ -510,6 +528,7 @@ API ခေါ်ပြီး ဒေတာတွေကို fetch တာ၊ data
 အခုပြောခဲ့တာလေးတွေကို တဆင့်ချင်း စိတ်အေးအေးနဲ့ စနစ်တကျလေ့လာသွားပါ။ **အခြေခံခိုင်ပြီးသူအတွက်ဆို ၈လလောက် အချိန်ပေးရင် အဆင်ပြေပါတယ် (ကိုယ်တွေ့မို့ပါ)။**
 
 **လိုအပ်တာတွေ**
+
 - ကိုယ်တိုင် စာတွေ အများကြီးဖတ်ဖို့လိုမယ်
 - Code တွေစမ်းရေးဖို့လိုမယ်
 - လမ်းညွှန်ပေးနိုင်မယ့်သူကိုချဥ်းကပ်ပြီး မေးမြန်းဖို့လိုပါမယ်
@@ -567,6 +586,7 @@ GitHub ကို သုံးမယ်ဆိုရင် တယောက်တ�
 
 **DevOps**  
 ကိုယ်တိုင်လုပ်မယ်ဆိုရင် 
+
 - **pipeline လုပ်ရတာတွေ**
 - **GitHub Actions**
 - **Docker**
