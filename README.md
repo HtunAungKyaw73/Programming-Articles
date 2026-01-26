@@ -37,29 +37,7 @@ A comprehensive learning resource collection covering modern web development wit
 
 ---
 
-### Path 1: Complete Beginner to Professional
-
-1. Start with **How to Turn Yourself Into a React Developer**
-   - Build fundamentals: HTML5/CSS3, JavaScript essentials
-   - Learn programming thinking and React basics
-2. Move to **The Complete Next.js Learning Guide**
-   - Master modern React patterns and server components
-   - Learn production-ready architecture
-3. Advanced: **RTK Query Mastery**
-   - Handle complex state management scenarios
-   - Optimize data fetching and caching
-
-### Path 2: React Developer to Next.js Expert
-
-- Start directly with **The Complete Next.js Learning Guide**
-- Supplement with relevant sections from React Developer guide
-- Advanced Path: **RTK Query Mastery**
-
-### Path 3: Advanced State Management
-
-- Prerequisites: React and basic Redux knowledge
-- Study **RTK Query Mastery: Complete Learning Guide**
-- Reference other guides for integration patterns
+### 5. [Intersection Observer Guide](intersection_observer_guide.md)
 
 ---
 
