@@ -53,6 +53,10 @@ A comprehensive learning resource collection covering modern web development wit
 
 ---
 
+### 9. [Scroll Driven Animation Guide](css-scroll-driven-animations-guide.md)
+
+---
+
 ## 💡 Learning Philosophy
 
 These guides emphasize:
