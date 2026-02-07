@@ -41,6 +41,18 @@ A comprehensive learning resource collection covering modern web development wit
 
 ---
 
+### 6. [CSS Transition and Animation Guide](css_animation_complete_guide.md)
+
+---
+
+### 7. [Web Animation API Guide](web_animations_api_guide.md)
+
+---
+
+### 8. [View Transition API Guide](view-transitions-api-complete-guide.md)
+
+---
+
 ## 💡 Learning Philosophy
 
 These guides emphasize:
